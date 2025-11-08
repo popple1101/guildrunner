@@ -1,0 +1,14 @@
+name = "guildrunner-backend"
+main = "src/index.js"
+compatibility_date = "2025-11-08"
+
+[vars]
+# 실제 값은 Cloudflare 대시보드에서 설정하는 걸 추천
+SUPABASE_URL = "https://xdewsrxwlktzwsxfcnkb.supabase.co"
+SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhkZXdzcnh3bGt0endzeGZjbmtiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI1NzIzMDksImV4cCI6MjA3ODE0ODMwOX0.4ES5XVeQ6cGMvhddv7FHMElaE6Zc7vTXEnu6vsv3MDo"
+SUPABASE_SERVICE_ROLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhkZXdzcnh3bGt0endzeGZjbmtiIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MjU3MjMwOSwiZXhwIjoyMDc4MTQ4MzA5fQ.xy8BYQNg3JAQUrDrA8txj77Eb009T389H9WVVR2S2os"
+
+
+[observability]
+enabled = true
+
